@@ -93,13 +93,6 @@ For transformer experiments, a GPU is required (tested on Google Colab A100).
 
 ---
 
-## Tool Usage Statement
-
-Claude AI (Anthropic) was used as a coding assistant throughout this
-project to help write, debug, and improve Python code. All code was
-understood, adapted, and verified by the student. All experimental
-decisions, analyses, and written content are the student's own work.
-
 ---
 
 ## References
