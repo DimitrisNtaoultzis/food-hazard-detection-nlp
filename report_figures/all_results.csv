@@ -1,0 +1,30 @@
+Method,Category,Valid,Kaggle
+BERT haz + Ensemble prod,Ensemble,,0.8188
+BERT-base Focal + Multi-task (0.5/0.5),Ensemble,,0.8173
+BERT-base Focal + DistilBERT (0.8/0.2),Ensemble,,0.8055
+BERT-base + Focal Loss,Transformer,,0.804
+Hierarchical BERT (Sequential),Hierarchical,,0.7929
+Multi-task BERT (35ep),Multi-task,,0.7706
+BERT-large + Focal,Transformer,,0.7697
+"DistilBERT (train+valid, 20ep)",Transformer,,0.7606
+RoBERTa-large + Focal,Transformer,,0.7585
+SVM + Feature Union (word+char),Classical,0.758,0.7571
+DistilBERT + SVM Ensemble,Ensemble,0.8028,0.7547
+TF-IDF + SVM (tuned),Classical,0.7419,0.7408
+BERT-multilingual + Focal,Transformer,,0.7398
+DeBERTa-large + Focal,Transformer,,0.7395
+RoBERTa-base + Focal,Transformer,,0.7296
+BM25 + SVM,Classical,0.7194,0.7263
+DistilBERT fine-tuned,Transformer,0.7998,0.7236
+Naive Bayes (tuned),Classical,0.695,0.695
+T5-small,Neural,,0.654
+TF-IDF + LogReg (title + text),Classical,0.6523,0.6523
+TextCNN,Neural,,0.628
+LSA + SVM (K=500),Dim. Reduction,0.6252,0.6252
+BiLSTM,Neural,0.65,0.5858
+TF-IDF + LogReg (title only),Classical,,0.5761
+Random Forest,Classical,0.4775,
+Word2Vec + SVM,Embeddings,0.4629,
+GloVe + SVM,Embeddings,0.4618,
+FastText + SVM,Embeddings,0.4716,
+PubMedBERT (feature extraction),Neural,0.4291,
