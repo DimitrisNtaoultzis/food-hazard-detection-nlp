@@ -6,6 +6,29 @@ __pycache__/
 # C extensions
 *.so
 
+# Data files
+*.csv
+*.npy
+*.pkl
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+venv/
+.ipynb_checkpoints/
+
+# Large files
+*.bin
+*.pt
+*.h5
+
+# OS
+.DS_Store
+Thumbs.db
+
+
 # Distribution / packaging
 .Python
 build/
